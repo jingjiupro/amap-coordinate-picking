@@ -1,6 +1,7 @@
 // 高德地图配置类型
 export interface MapConfig {
   API_KEY: string;
+  securityJsCode: string;
   MAP_OPTIONS: {
     zoom: number;
     center: [number, number];
